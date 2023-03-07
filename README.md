@@ -29,9 +29,9 @@ __The detailed procedure is being described in the attached pdf document.__
 With a small step size (i.e. 3 or lower), the optimization is converging towards a local minimum with a weight reduction of 56%. 
 With a greater step size (i.e. 6), the optimization is converging towards the global minimum with a weight reduction of 89%. 
 
-<img src="https://github.com/dossma/TrussOptimization/blob/main/Lokales_Optimum%2Cd%3D2.jpg" width=30% height=30%>
-<img src="https://github.com/dossma/TrussOptimization/blob/main/Globales_Optimum%2Cd%3D2.jpg" width=30% height=30%>
-
+|<img src="https://github.com/dossma/TrussOptimization/blob/main/Lokales_Optimum%2Cd%3D2.jpg" width=30% height=30%>|<img src="https://github.com/dossma/TrussOptimization/blob/main/Modell.jpg" width=30% height=30%>
+|----------------------------------------------------|-----------------------------------------------------|
+| optimization procedure converging to local minimum | optimization procedure converging to global minimum |
 
 ## Get started
 Modify, if you wish, the parameters described above or run it unmodified with default configuration.
