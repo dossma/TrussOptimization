@@ -38,22 +38,14 @@ In the plots, the yellow dots represent the step size and the blue dots the weig
 Modify, if you wish, the parameters described above or run it unmodified with default configuration.
 
 ## Development setup
-Prominent required external libraries are
-- Selenium: https://github.com/SeleniumHQ/selenium
-- Geckodriver https://github.com/mozilla/geckodriver
-
-__Selenium:__
-```sh
-pip install selenium
-```
-__Geckodriver:__
-Download latest release and put it into your development folder, (i.e. C:/Users/yourUsername/Anaconda3). 
-Make sure this path is set as environmental variable. 
+- [Matlab](https://www.mathworks.com/products/matlab.html)
+or
+- [Octave](https://octave.org/)
 
 ## Meta
 
 Author: Jonas Dossmann
 
-Distributed under the AGPL-3.0 license.
+Distributed under the MIT license.
 
 [https://github.com/dossma/](https://github.com/dossma/)
