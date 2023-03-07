@@ -10,15 +10,31 @@ First, the magnitude of the applied force is being set, which is 100 N by defaul
 Then, the node coordinates of the truss is being set (lines 11-13). By default, the nodes are such which manifest an equilateral triangle.
 All nodes must be included in the node matrix (´Knotenmatrix´) in line 16.
 Each rod is connected to two nodes; this configuration is defined in lines 18-21.
-After, the configuration of the bearings are set (lines 26-29). The default is a fixed bearing at the bottom left node and a floating bearing at the bottom right node. 
+After, the degrees of freedom of the bearings are set (lines 26-29). "1" stands for fixed and "0" stands for loose. The default is a fixed bearing at the bottom left node and a floating bearing at the bottom right node. 
 
-<img src="https://github.com/dossma/scrape-CAMX/blob/main/camx_snapshot.jpg" width=100% height=100%>
+<img src="https://github.com/dossma/TrussOptimization/blob/main/Modell.jpg" width=30% height=30%>
 
-<img src="https://github.com/dossma/scrape-CAMX/blob/main/camx_snapshot.jpg" width=100% height=100%>
-<img src="https://github.com/dossma/scrape-CAMX/blob/main/Gmaps%20screenshot%20w%20profile.jpg" width=100% height=100%>
+While the design of this procedure is such, that parameters are defined right before they are being used in contrast to an approach that all parameters are defined at the top, the material parameters are defined in lines 102-107. By default, material parameters of steel type S235 is used. In addition, a security factor is set towards yielding of, by default, 1.5. 
+
+The profile areas of the rods are defined in lines 109-112. By default, the rods have a circular solid profile surface.
+
+The starting step size of the node variation is defined in line 141 under the variable `d`. 
+
+The optimization procedure takes place within the generation loop starting from line 154.
+
+__The detailed procedure is being described in the attached pdf document.__ 
+
+## Summary and Result
+
+With a small step size (i.e. 3 or lower), the optimization is converging towards a local minimum with a weight reduction of 56%. 
+With a greater step size (i.e. 6), the optimization is converging towards the global minimum with a weight reduction of 89%. 
+
+<img src="https://github.com/dossma/TrussOptimization/blob/main/Modell.jpg" width=30% height=30%>
+<img src="https://github.com/dossma/TrussOptimization/blob/main/Modell.jpg" width=30% height=30%>
+
 
 ## Get started
-After the development setup has been established (see below), just run it.
+Modify, if you wish, the parameters described above or run it unmodified with default configuration.
 
 ## Development setup
 Prominent required external libraries are
