@@ -29,7 +29,7 @@ __The detailed procedure is being described in the attached pdf document.__
 With a small step size (i.e. 3 or lower), the optimization is converging towards a local minimum with a weight reduction of 56%. 
 With a greater step size (i.e. 6), the optimization is converging towards the global minimum with a weight reduction of 89%. 
 
-In the plots, the yellow dots represent the step size and the blue line the weight. Below is a visualization of the truss design with dimensions.
+In the plots, the yellow dots represent the step size and the blue dots the weight. Below is a visualization of the truss design with dimensions.
 |<img src="https://github.com/dossma/TrussOptimization/blob/main/Lokales_Optimum%2Cd%3D2.jpg" width=100% height=100%>|<img src="https://github.com/dossma/TrussOptimization/blob/main/Globales_Optimum%2Cd%3D6.jpg" width=100% height=100%>
 |----------------------------------------------------|-----------------------------------------------------|
 | optimization procedure converging to local minimum | optimization procedure converging to global minimum |
