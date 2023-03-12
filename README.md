@@ -1,5 +1,5 @@
 # TrussOptimization
-Weight optimization of a truss structure via evolution strategy
+Weight optimization of a truss structure via evolution strategy.
 
 ## Motivation
 Truss structures have a weight for which its weight optimal design is not intuitively to determine. This optimization procedure can find the optimal design for minimal weight.  
